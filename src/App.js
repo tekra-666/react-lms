@@ -3,7 +3,8 @@ import React from "react";
 import './App.css';
 import './Font.css';
 import Header from "./Components/UI/Header.js";
-import SidebarPrimary from "./Components/UI/SidebarPrimary";
+import SidebarPrimary from "./Components/UI/SidebarPrimary.js";
+import DashboardCandidate from "./Pages/Candidate/DashboardCandidate";
 
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
       <SidebarPrimary/>
       
       <main>
-        <div>App Is going good</div> 
+        <DashboardCandidate/>
       </main>
     </div>
   );

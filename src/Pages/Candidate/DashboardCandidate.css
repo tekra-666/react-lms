@@ -1,0 +1,8 @@
+.dashboard-candidate {
+  background-color: bisque;
+  padding: 20px;
+  border-radius: 5px;
+  display: grid;
+
+  grid-template-columns: 1fr 3fr;
+}

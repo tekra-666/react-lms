@@ -2,22 +2,21 @@ nav a {
   text-decoration: none;
 }
 
-.sidebar {
+nav {
   position: fixed;
   left: 0;
   bottom: 0;
   top: 55px;
   background-color: #0f0f0fff;
-  width: auto;
+  width: 160px;
   z-index: 200;
-  padding-top: 5px;
+  padding-top: 0;
 }
 
-.sidebar-link {
+nav a {
   color: white;
   height: 60px;
   padding-left: 28px;
-  padding-right: 30px;
   margin-top: 0;
   display: flex;
   flex-direction: column;
@@ -26,12 +25,12 @@ nav a {
   cursor: pointer;
 }
 
-.sidebar-link:hover {
+nav a:hover {
   background-color: #6610F2;
   color: antiquewhite;
 }
 
-.sidebar-link:active {
+nav a:active {
   background-color: #6610F2;
   color: antiquewhite;
 }
