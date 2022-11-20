@@ -43,20 +43,35 @@
 
 }
 
-.card-info-education {
+.info-education {
   display: grid;
-  grid-template-rows: auto 1fr;
-  row-gap: 20px;
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 20px;  
+  column-gap: 10px;
 
 }
 
+.info-education-grid {
+
+}
+
+/* Common Card-Info Styles */
+
+.card {
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .card-title {
-  background-color: black;
+  background-color: #6610f2;
   color: white;
+  font-weight: bold;
   padding: 15px;
   border-radius: 10px 10px 0 0;
 }
 
 .card-body {
-  
+  background-color: whitesmoke;
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
 }
