@@ -8,15 +8,10 @@ import ProfileCandidate from "./Pages/Candidate/ProfileCandidate.js";
 
 
 const App = () => {
-
-
   return (
-    
-    
     <div className="app"> 
       <Header/>
       <SidebarPrimary/>
-      
       <main>
         <ProfileCandidate/>
       </main>
