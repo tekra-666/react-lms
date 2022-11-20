@@ -1,0 +1,62 @@
+.card-style {
+  background-color: beige;
+  border-radius: 10px;
+}
+
+.card-padding {
+  padding: 15px;
+}
+
+.profile-candidate {
+  background-color: bisque;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+
+  grid-template-rows: 1fr auto;
+  row-gap: 30px;
+}
+
+.card-info-personal {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 40px;
+}
+
+.profile-photo {
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+  
+}
+
+.profile-photo img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info-personal {
+  display: grid;
+  align-items: center;
+  grid-template-rows: repeat(6, 1fr);
+
+
+}
+
+.card-info-education {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 20px;
+
+}
+
+.card-title {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  
+}
