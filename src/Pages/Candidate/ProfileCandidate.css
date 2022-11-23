@@ -7,7 +7,7 @@
 }
 
 .profile-candidate {
-  background-color: bisque;
+  background-color: #F9F9F9;
   padding: 20px;
   border-radius: 10px;
   display: grid;
@@ -18,12 +18,11 @@
 
 .card-info-personal {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 200px 50px 1fr;
   column-gap: 40px;
 }
 
 .profile-photo {
-  background-color: aquamarine;
   height: 200px;
   width: 200px;
   
@@ -38,6 +37,10 @@
   display: grid;
   align-items: center;
   grid-template-rows: repeat(6, 1fr);
+}
+
+.info-personal-title {
+  font-weight: 700;
 }
 
 .info-education {

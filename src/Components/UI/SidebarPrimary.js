@@ -9,22 +9,16 @@ const SidebarPrimary = () => {
         <a href="/" className="sidebar-link">DASHBOARD</a>
       </div>
       <div>
-        <a href="/" className="sidebar-link">STUDENT PROFILE</a>
+        <a href="/" className="sidebar-link">LEARNER PROFILE</a>
       </div>
       <div>
         <a href="/" className="sidebar-link">SUPPORT</a>
       </div>
       <div>
-        <a href="/" className="sidebar-link">FEES</a>
+        <a href="/" className="sidebar-link">PROJECTS</a>
       </div>
       <div>
-        <a href="/" className="sidebar-link">FEES</a>
-      </div>
-      <div>
-        <a href="/" className="sidebar-link">FEES</a>
-      </div>
-      <div>
-        <a href="/" className="sidebar-link">FEES</a>
+        <a href="/" className="sidebar-link">EXAMINATION</a>
       </div>
     </nav>
   );

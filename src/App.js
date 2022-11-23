@@ -4,7 +4,7 @@ import './App.css';
 import './Font.css';
 import Header from "./Components/UI/Header.js";
 import SidebarPrimary from "./Components/UI/SidebarPrimary.js";
-import ProfileCandidate from "./Pages/Candidate/ProfileCandidate.js";
+import ProfileLearner from "./Pages/Candidate/ProfileLearner.js";
 
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
       <Header/>
       <SidebarPrimary/>
       <main>
-        <ProfileCandidate/>
+        <ProfileLearner/>
       </main>
     </div>
   );

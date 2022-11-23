@@ -9,17 +9,25 @@ const ProfileCandidate = () => {
     <div className="profile-candidate">
       
       {/* Candidate Personal Information */}
-      <div className="card-info-personal card-style">
+      <div className="card-info-personal">
         <div className="profile-photo">
           <img src={ProfilePhoto} alt="profile photo" />
         </div>
-        <div className="info-personal">
+        <div className="info-personal info-personal-title">
           <div>Name</div>
           <div>Email</div>
           <div>Mobile</div>
-          <div>City</div>
+          <div>Location</div>
           <div>Program</div>
           <div>Course</div>
+        </div>
+        <div className="info-personal info-personal-detail">
+          <div>Shiv Kumar Sharma</div>
+          <div>shivinboxmail@gmail.com</div>
+          <div>+91-9958928781</div>
+          <div>Ghaziabad, India</div>
+          <div>Tech Scaler</div>
+          <div>Full Stack Development</div>
         </div>
       </div>
 
